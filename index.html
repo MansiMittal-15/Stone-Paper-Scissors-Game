@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css"> </link>
+</head>
+<body>
+
+    <header id="head">Rock, Paper and Scissors</header> 
+
+    <div class="main">
+
+        <div class="images">
+            <img src="./photos/fistImg.webp" alt="stone image" class="pics" id="stone">
+            <img src="./photos/palmImg.png" alt="paper image" class="pics" id="paper">
+            <img src="./photos/victoryImg.jpg" alt="scissors image" class="pics" id="scissors">
+        </div>
+
+        <div class="score">
+            <div class="user">
+                <ul>
+                    <li class="userScore">0</li>
+                    <li style="font-size: 30px;">You</li>
+                </ul>
+            </div>
+            <div class="computer">
+                <ul>
+                    <li class="compScore">0</li>
+                    <li style="font-size: 30px;">Comp</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="btn">Play your Move.</button>
+
+        <button id="restart">Restart</button>
+
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
